@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Registration</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+    <center>
+        <h1>Register Here!!!</h1>
+        <h2>
+        <form method="post" action="registerServlet">
+            Username : <input type="text" name="username"/><br />
+            Password : <input type="password" name="password"/><br />
+            Preference :
+            <select name="preference">
+                <option value="Beaches">Beaches</option>
+                <option value="Cities">Cities</option>
+                <option value="Hillstations">Hillstations</option>
+                <option value="Holyplaces">Holyplaces</option>
+                <option value="Wildlife">Wildlife</option>
+            </select> <br />
+            Email : <input type="email" name="email"/><br />
+            Type : <select name="type">
+                <option value="Tourist">Tourist</option>
+                <option value="TouristGuide">Tourist Guide</option>
+            </select><br /><br /><br />
+            <input type="submit" value="REGISTER"/>
+        </form></h2></center>
+        <h4>Note:<br /><br />
+        1.Username provided by you must be a unique one.<br />
+        2.All the fields must be filled.<br />
+        3.Preference field is just to know more about the user preference.<br />
+        </h4></body></html>
